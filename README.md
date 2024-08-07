@@ -1,7 +1,5 @@
-## i96_kernel
-#Kernel files for OrangePI i96(Orange PI 2g-iot)
+## Ubuntu for OrangePI i96(Orange PI 2g-iot)
 
-You need add this files to kernell directory. 
 
 I use gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf for compilation.
 
@@ -38,7 +36,7 @@ Or you can modify Image from PC:
 sudo mount -o loop,offset=2097152 NewImg.img /tmp/tmp (for modify boot partition)
 sudo mount -o loop,offset=54525952 NewImg.img /tmp/tmp (for modify root system partition)
 ```
-
+Sources:
 [Сборка прошивки из исходников для Orange PI i96(Orange PI 2g-iot)](https://habr.com/ru/articles/763996/) / [Building firmware for Orange PI i96 (Orange PI 2g-iot) from scratch](https://habr.com/ru/articles/804233/)
 
 [Структура драйвера Linux для одноплатного компьютера](https://habr.com/ru/articles/782858/) / [Structure of Linux driver for single-board computer.](https://habr.com/ru/articles/808425/)
